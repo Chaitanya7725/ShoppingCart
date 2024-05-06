@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 //@Configuration
 //@EnableWebFluxSecurity
-//public class OktaOAuth2WebSecurity {
+public class OktaOAuth2WebSecurity {
 //
 //    @Bean
 //    public SecurityWebFilterChain SecurityWebFilterChain(ServerHttpSecurity http){
@@ -27,4 +27,4 @@ import org.springframework.context.annotation.Configuration;
 //
 //    }
 //
-//}
+}

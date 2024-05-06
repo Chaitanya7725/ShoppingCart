@@ -9,17 +9,18 @@ spring:
       server:
         git:
           uri: https://github.com/Chaitanya7725/shopping-cart-spring-app-config.git
+#          uri: https://github.com/Chaitanya7725/test.git
           clone-on-start: true
           default-label: main
 #          skipSslValidation: true
 #          timeout: 10
 
-#eureka:
-#  instance:
-#    prefer-ip-address: true
-#  client:
-#    fetch-registry: true
-#    register-with-eureka: true
-#    service-url:
-#      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka}
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka}
 

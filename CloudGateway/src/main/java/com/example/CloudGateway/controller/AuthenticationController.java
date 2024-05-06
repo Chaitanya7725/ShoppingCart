@@ -11,14 +11,14 @@ import org.springframework.http.ResponseEntity;
 //import org.springframework.security.oauth2.core.oidc.user.OidcUser;
 //import org.springframework.ui.Model;
 //import org.springframework.web.bind.annotation.GetMapping;
-//import org.springframework.web.bind.annotation.RequestMapping;
-//import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 //
 //import java.util.stream.Collectors;
 
-//@RestController
-//@RequestMapping("/authenticate")
-//public class AuthenticationController {
+@RestController
+@RequestMapping("/authenticate")
+public class AuthenticationController {
 //
 //    @GetMapping("/login")
 //    public ResponseEntity<AuthenticationResponse> login(
@@ -45,4 +45,4 @@ import org.springframework.http.ResponseEntity;
 //        return new ResponseEntity<>("Working",HttpStatus.OK);
 //    }
 //
-//}
+}
